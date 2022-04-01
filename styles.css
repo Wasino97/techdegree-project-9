@@ -1,0 +1,9 @@
+.card-deck {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#home {
+    background-image: url("header.png") no-repeat 0, 0 #99e9ff;
+    background-blend-mode: multiply;
+}
