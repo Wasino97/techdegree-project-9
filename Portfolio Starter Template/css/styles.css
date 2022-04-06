@@ -387,6 +387,11 @@ header .nav-link:last-child {
 .portfolio-box .icon-wrapper i {
     font-size: 3rem;
     color: blue;
+    transition: all 0.3s ease;
+}
+
+.portfolio-box .icon-wrapper i:hover {
+    font-size: 4.5rem;
 }
 
 .portfolio-box .portfolio-heading {
@@ -476,9 +481,6 @@ header .nav-link:last-child {
 }
 
 @media (min-width: 768px) {
-    #portfolio {
-        padding: 150px 0;
-    }
 
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -486,9 +488,6 @@ header .nav-link:last-child {
 }
 
 @media (min-width: 992px) {
-    .portfolio-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
 
     .portfolio-box {
         padding: 30px;
@@ -558,9 +557,6 @@ header .nav-link:last-child {
 }
 
 @media (min-width: 768px) {
-    #contact {
-        padding: 265px 0;
-    }
 
     #contact .inner-content {
         display: flex;
